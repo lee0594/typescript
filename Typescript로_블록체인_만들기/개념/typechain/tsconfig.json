@@ -1,0 +1,10 @@
+{
+    "include": ["src"], //ts가 src의 모든 파일을 확인한다는 의미
+    "compilerOptions": {
+        "outDir": "build",
+        "target" : "ES6",
+        "lib" : ["ES6", "DOM"],
+        "strict": true,
+        "allowJs": true
+    }
+}
